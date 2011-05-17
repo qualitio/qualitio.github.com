@@ -1,0 +1,232 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>Qualitio Web Site</title>
+		<script type="text/javascript" src="http://code.jquery.com/jquery-1.6.min.js"></script>
+		<!-- FancyBox -->
+		<script type="text/javascript" src="/js/fancybox-1.3.4/jquery.fancybox-1.3.4.js"></script>
+		<link rel="stylesheet" href="/js/fancybox-1.3.4/jquery.fancybox-1.3.4.css" type="text/css" media="screen" />
+		<!-- Google-Font -->
+		<link href="http://fonts.googleapis.com/css?family=Nobile:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css" >
+		<!-- Skype 'Skype Me!' button http://www.skype.com/go/skypebuttons -->
+		<script type="text/javascript" src="/js/skypeCheck.js"></script>
+
+        <link rel="stylesheet" type="text/css" href="style.css" />
+
+		<script type="text/javascript">
+			$(document).ready(function() {
+				$("#menu-puzzle-00").hover(
+					function() { $("#text-requirements").css('font-weight', 'bold');},
+					function() { $("#text-requirements").css('font-weight', '400');	}
+				);
+
+				$("#menu-puzzle-01").hover(
+					function() { $("#text-execute").css('font-weight', 'bold');},
+					function() { $("#text-execute").css('font-weight', '400');	}
+				);
+
+				$("#menu-puzzle-10").hover(
+					function() { $("#text-store").css('font-weight', 'bold');},
+					function() { $("#text-store").css('font-weight', '400');	}
+				);
+
+				$("#menu-puzzle-11").hover(
+					function() { $("#text-report").css('font-weight', 'bold');},
+					function() { $("#text-report").css('font-weight', '400');	}
+				);
+								
+				$("#menu-puzzle-00").fancybox({
+					'titlePosition'		: 'inside',
+					'transitionIn'		: 'elastic',
+					'transitionOut'		: 'none',
+					'autoScale'			: false,
+					'autoDimensions'	: false,
+					'hideOnContentClick': true,					
+					'width'				: '660',
+					'height'			: '350',
+				});
+				
+				$("#menu-puzzle-01").fancybox({
+					'titlePosition'		: 'inside',
+					'transitionIn'		: 'elastic',
+					'transitionOut'		: 'none',
+					'autoScale'			: false,
+					'autoDimensions'	: false,
+					'hideOnContentClick': true,
+					'width'				: '660',
+					'height'			: '200',
+				});
+				
+				$("#menu-puzzle-10").fancybox({
+					'titlePosition'		: 'inside',
+					'transitionIn'		: 'elastic',
+					'transitionOut'		: 'none',
+					'autoScale'			: false,
+					'autoDimensions'	: false,
+					'hideOnContentClick': true,
+					'width'				: '660',
+					'height'			: '290',
+				});
+				$("#menu-puzzle-11").fancybox({
+					'titlePosition'		: 'inside',
+					'transitionIn'		: 'elastic',
+					'transitionOut'		: 'none',
+					'autoScale'			: false,
+					'autoDimensions'	: false,
+					'hideOnContentClick': true,
+					'width'				: '660',
+					'height'			: '240',
+				});
+				$("#button-overview").fancybox({
+					'titlePosition'		: 'inside',
+					'transitionIn'		: 'elastic',
+					'transitionOut'		: 'none',
+					'autoScale'			: false,
+					'autoDimensions'	: false,
+					'hideOnContentClick': true,
+					'width'				: '660',
+					'height'			: '665',
+				});				
+				$("#button-contact").fancybox({
+					'titlePosition'		: 'inside',
+					'transitionIn'		: 'elastic',
+					'transitionOut'		: 'none',
+					'autoScale'			: false,
+					'autoDimensions'	: false,
+					'hideOnContentClick': true,
+					'width'				: '660',
+					'height'			: '220',
+				});				
+			});
+		</script>
+    </head>
+    
+    <body>
+    	<div class="body-content">
+        	<div id="box-header">        
+	        </div>
+        
+	        <div id="box-center">
+    	    	<div id="menu-puzzle">
+        			<a id="menu-puzzle-00" href="#requirement"></a>
+        			<a id="menu-puzzle-01" href="#reporting"></a>	
+        			<a id="menu-puzzle-10" href="#store"></a>
+	        		<a id="menu-puzzle-11" href="#execution"></a>
+					<div id="text-requirements">Require</div>
+					<div id="text-execute">Execute</div>
+					<div id="text-store">Store</div>
+					<div id="text-report">Reports</div>
+    	    	</div>
+
+				<div id="box-overview">
+        			<a id="button-overview" href="#overview"> </a>        						
+				</div>
+
+    	    	<div id="box-text">
+        			<ul>
+	        			<li>Take care of the quality of your project with no extra effort</li>
+    	    			<li>Prepare requirements with just a few clicks</li>
+        				<li>Create test cases to cover the requirements</li>
+        				<li>Execute test runs using predefined test cases</li>
+        				<li>Create reports automatically to measure progress</li>
+	        			<li><b>Open source</b></li>
+    	    		</ul>
+        		</div>
+	        </div>
+        
+	        <div id="box-links">
+    	    	<a id="button-demo" href="https://meego.qualitio.com" target="_blank"></a>
+        		<a id="button-download" href="https://github.com/qualitio/qualitio" target="_blank"></a>
+        		<a id="button-contact" href="#contact"></a>
+	        </div>
+
+			<div style="display: none;">
+				<div id="requirement">
+   					<h3>Requirements module</h3>
+					<p>Each project starts with requirements which reflect customer needs.</p> 
+					<p>Descriptive requirements divided into different level of abstraction is the first step for successful product delivery.</p>
+					<p>Qualitio gives you an option to:</p>     		
+					<ul>
+   						<li>Check requirements and their relations on each level</li>
+   						<li>Attach test cases to testable items</li>
+   						<li>Follow requirements implementation status based on test results</li>
+	   					<li>Follow requirements dependency</li>
+   						<li>Keep everything in one place</li>
+       					<li>Interface to existing REQ management system</li>
+	       			</ul>
+				</div> 
+			</div>
+
+			<div style="display: none;">
+        		<div id="reporting">
+        			<h3>Reporting module</h3>
+	        		<p>Testing results are worthless without good reporting. Well prepared testing summary gives bird's eye view on product situation.</p>
+    	    		<p>Qualitio gives you an opprutinity to create fully informative and not data overloaded reports. Each report could be tailored to your needs thanks to meta language engine.</p>
+        			<p>Extensive API can be used to create even more customized reports.</p>
+	        	</div>
+			</div>
+        
+			<div style="display: none;">
+	        	<div id="execution">
+    	    		<h3>Execution module</h3>
+        			<p>Good quality assurance follows whole life cycle of a project on each level.</p>
+        			<p>Qualitio gives you an option to:</p>
+        			<ul>
+	        			<li>Execute test cases to follow requirement(s) implementation and quality state</li>
+    	    			<li>Follow all bugs which influence testing activities</li>
+        				<li>Prepare verbose notes for each test run</li>
+        				<li>Execute same test sets for whole project life cycle</li>
+	        		</ul>
+    	    	</div>
+			</div>
+
+			<div style="display: none;">
+	        	<div id="store">
+					<h3>Store module</h3>
+        			<p>Each project needs testing activities to assure solid quality. </p>
+        			<p>Solid quality means good test cases. Good test cases covers all application on each level.</p>
+        			<p>Qualitio gives you an option to:</p>
+	        		<ul>
+    	    			<li>Prepare, edit and review test cases</li>
+        				<li>Attach accepted tests to suitable requirements</li>
+	        			<li>Create a structure based on directory tree to distinguish different testing activities</li>
+    	    			<li>And still keep everything in one place</li>
+	        		</ul>
+	        	</div>
+			</div>
+
+			<div style="display: none;">
+    	   		<div id="overview">
+       				<h3>Overview</h3>
+					<p>Qualitio is a software which may be used for preparing, storing and executing manual test cases. It focuses on test cases creation and execution. It provides powerful reports and great bug handling. </p>
+					<p>It's what you need. Simple tool which is easy and allows you to speed up your work without overhead. </p>
+    	   			<ul>
+	    	   			<li>Qualitio covers whole QA process from designing test cases to generating custom reports.</li>
+    	   				<li>Qualitio has an extensive API which can be used on any operating system.</li>
+       					<li>Qualitio can be adapted quickly to the changes in the QA process. New features can be added whenever we need them. We are not limited to out-of-the-box solutions only.</li>
+       					<li>Qualitio is integrated with 3rd party bug tracking systems (currently Bugzilla). Bugs can be linked easily to failed test cases.</li>
+	       				<li>Qualitio is Django / Python powered.It's very easy to maintain or change according to customer requests and could be tailored to individual needs really fast. </li>
+    	   				<li>Test cases in Qualitio can be easily localized.</li>
+	    	   			<li>User defined strings can be used in test cases for frequently used phrases. Updating test cases is easy!</li>
+    	   				<li>Reports can be generated for multiple test runs at once with a single click.</li>
+       					<li>Qualitio saves a lot of time on automating or simplifying frequent tasks (especially reporting and test case execution). This means more time for testing.</li>
+		       		</ul>
+    		   		<p>It works with all the major web brow</p>
+       				<p>Qualitio allows you to cooperate with such powerful tools like Bugzilla.</p>
+		       	</div>
+			</div>
+
+			<div style="display: none;">
+    	    	<div id="contact">
+					<h3>Contact us</h3>
+        			<p>Please do not hesitate to send us an email if you have a question or a request regarding Qualitio.</p>
+        			<p>If you prefer you may call us to this phone number <a href="tel:+441223968070">+44 122396 8070</a> or <a href="skype:qualitio?call">Skype</a>.</p> 
+        				<p>Our business hours are 8 AM - 5 PM GMT</p>
+	        		<p>Our email: <a href="mailto:support@qualitio.com">support@qualitio.com</a></p>
+    	    	</div>
+			</div>
+		</div>				
+	</body>
+</html>

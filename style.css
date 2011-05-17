@@ -1,0 +1,172 @@
+body {
+	background-color: #858585;
+	background-image: url(resources/gradient.png);
+	background-repeat: repeat-x;
+    width: 100%;
+    display: table;
+	margin-top: -18px;
+
+	font-family: 'Nobile', serif;
+  	font-size: 15px;
+	font-style: normal;
+	font-weight: 400;
+	text-shadow: none;
+	text-decoration: none;
+	text-transform: none;
+	letter-spacing: 0em;
+	word-spacing: 0em;
+	line-height: 1.2;
+	color : #000;
+}
+
+.body-content {
+    display:block;
+    margin: 1em auto;
+    width: 846px; /* choose the width */
+}
+
+ul {
+	list-style-type: none;
+}
+
+li {
+	background-image: url(resources/li_right.png );
+	background-repeat: no-repeat;
+	background-position: 21px 5px;
+	margin-top: 10px;
+	padding-left: 35px;
+}
+
+div#fancybox-wrap {top:50px !important; } 
+
+#box-header{
+	background-image: url(resources/upper_logo_small.png);
+	background-repeat: no-repeat;
+	height : 57px;
+}
+
+#box-center{ height: 395px; }
+
+#box-overview{
+	background-color: transparent;
+	position:relative;
+	float:right; 
+	width: 120px;
+	height : 120px;
+	margin-top: 5px;
+}
+
+#box-text{
+	background-color: transparent;
+	position:relative;
+	float:right; 
+	width: 340px;
+	height : 268px;
+} 
+
+#box-text ul{ margin-top: -10px; }
+
+#box-links{
+	background-image: url(resources/bottom_table_small.png);
+	background-repeat: no-repeat;
+	position: relative;
+	width: 846px;
+	height : 177px;
+}
+
+#menu-puzzle{
+	background-image: url(resources/puzzle_transparent_small.png); 
+	background-repeat: no-repeat; 
+	width: 506px; 
+	height: 388px;
+	position: relative;
+	float: left;
+}
+
+#menu-puzzle a{ position: absolute;}
+
+#menu-puzzle-00{
+	height: 193px;
+	width: 273px;
+}
+
+#menu-puzzle-00:hover{ 
+	background-image: url(resources/left_top_active_small.png); 
+	text-requirements {font-weight: 700;}
+}
+	
+#menu-puzzle-01 {
+	right: 0px;
+	width: 233px;
+	height: 193px;
+}
+
+#menu-puzzle-01:hover {	background-image: url(resources/right_top_active_small.png); }
+
+#menu-puzzle-10 {
+	bottom: 0px;
+	width: 273px;
+	height: 217px;
+}
+
+#menu-puzzle-10:hover {	background-image: url(resources/left_bottom_active_small.png); }
+
+#menu-puzzle-11 {
+	bottom: 0px;
+	right: 0px;
+	width: 233px;
+	height: 217px;
+}
+
+#menu-puzzle-11:hover {	background-image: url(resources/right_bottom_active_small.png); }
+
+#button-overview{
+	background-image: url(resources/about_section.png);
+	background-repeat: no-repeat;	
+	position: absolute;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+}
+
+#button-demo{
+	background-image: url(resources/demo_passive_small.png);
+	background-repeat: no-repeat;
+	position:absolute;
+	top: 25.5px;
+	left: 51px;
+	width: 214px;
+	height: 126px;
+}
+
+#button-demo:hover{	background-image: url(resources/demo_active_small.png); }
+
+#button-download{
+	background-image: url(resources/download_passive_small.png);
+	background-repeat: no-repeat;
+	position:absolute;
+	top: 25.5px;
+	left: 316px;
+	width: 214px;
+	height: 126px;
+}
+
+#button-download:hover{	background-image: url(resources/download_active_small.png); }
+
+#button-contact{
+	background-image: url(resources/contact_passive_small.png);
+	background-repeat: no-repeat;
+	position:absolute;
+	top: 25.5px;
+	left: 581px;
+	width: 214px;
+	height: 126px;
+}
+
+#button-contact:hover{ background-image: url(resources/contact_active_small.png); }
+
+#text-requirements {font-size: 12px; position: relative; top: 12px; left: 15px;}
+#text-execute {font-size: 12px; position: relative; top: 0px; left: 435px;}
+#text-store {font-size: 12px; position: relative; top: 337px; left: 45px;}
+#text-report {font-size: 12px; position: relative; top: 323px; left: 435px;}
+#skypedetectionswf{display: none;}
