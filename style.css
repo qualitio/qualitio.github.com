@@ -93,10 +93,7 @@ div#fancybox-wrap {top:50px !important; }
 	width: 273px;
 }
 
-#menu-puzzle-00:hover{ 
-	background-image: url(resources/left_top_active_small.png); 
-	text-requirements {font-weight: 700;}
-}
+#menu-puzzle-00:hover{ background-image: url(resources/left_top_active_small.png); }
 	
 #menu-puzzle-01 {
 	right: 0px;
@@ -168,8 +165,8 @@ div#fancybox-wrap {top:50px !important; }
 
 #button-contact:hover{ background-image: url(resources/contact_active_small.png); }
 
-#text-requirements {font-size: 12px; position: relative; top: 12px; left: 15px;}
-#text-execute {font-size: 12px; position: relative; top: 0px; left: 435px;}
-#text-store {font-size: 12px; position: relative; top: 337px; left: 45px;}
-#text-report {font-size: 12px; position: relative; top: 323px; left: 435px;}
+#text-requirements {font-family: "Arial"; font-size: 13px; position: relative; top: 14px; left: 40px;}
+#text-execute {font-family: "Arial"; font-size: 13px; position: relative; top: 0px; left: 435px;}
+#text-store {font-family: "Arial"; font-size: 13px; position: relative; top: 335px; left: 45px;}
+#text-report {font-family: "Arial"; font-size: 13px; position: relative; top: 320px; left: 435px;}
 #skypedetectionswf{display: none;}
