@@ -2,9 +2,10 @@ body {
 	background-color: #858585;
 	background-image: url(resources/gradient.png);
 	background-repeat: repeat-x;
+	margin: 0px;
     width: 100%;
+	overflow: auto;
     display: table;
-	margin-top: 0px;
 
 	font-family: 'Nobile', serif;
   	font-size: 15px;
