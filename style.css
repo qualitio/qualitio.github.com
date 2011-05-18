@@ -4,7 +4,7 @@ body {
 	background-repeat: repeat-x;
     width: 100%;
     display: table;
-	margin-top: -18px;
+	margin-top: 0px;
 
 	font-family: 'Nobile', serif;
   	font-size: 15px;
@@ -21,7 +21,7 @@ body {
 
 .body-content {
     display:block;
-    margin: 1em auto;
+    margin: 0em auto;
     width: 846px; /* choose the width */
 }
 
@@ -89,7 +89,6 @@ div#fancybox-wrap {top:50px !important; }
 #menu-puzzle-00{
 	height: 193px;
 	width: 273px;
-	z-index:2;
 }
 
 #menu-puzzle-00:hover{ 
