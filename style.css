@@ -81,6 +81,7 @@ div#fancybox-wrap {top:50px !important; }
 	height: 388px;
 	position: relative;
 	float: left;
+	z-index: 0;
 }
 
 #menu-puzzle a{ position: absolute;}
