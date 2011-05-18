@@ -84,10 +84,12 @@ div#fancybox-wrap {top:50px !important; }
 }
 
 #menu-puzzle a{ position: absolute;}
+#menu-puzzle div{width: 50px; z-index: -1;}
 
 #menu-puzzle-00{
 	height: 193px;
 	width: 273px;
+	z-index:2;
 }
 
 #menu-puzzle-00:hover{ 
