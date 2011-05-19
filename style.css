@@ -176,8 +176,14 @@ div#fancybox-wrap {top:50px !important; }
 	position: relative;
 	float: right;
 }
+
 .imagesmodules{
 	position:absolute;
 	float: right;
 	right: 0px;
+}
+
+.imagesmodules img{
+	width: 304px;
+	height: 200px;
 }

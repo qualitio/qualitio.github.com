@@ -56,7 +56,7 @@
 					'autoDimensions'	: false,
 					'hideOnContentClick': true,
 					'width'				: '760',
-					'height'			: '380',
+					'height'			: '280',
 				});
 				
 				$("#menu-puzzle-10").fancybox({
@@ -102,11 +102,15 @@
 			});
 		</script>
 		
-		<script type="application/javascript">
+		<script type="text/javascript">
 			$(function() {
 				$('#dynamicimage img').hover(
 					function(){
 						var $this = $(this);
+						$('#menu-puzzle-01').bind('resize',function(){
+							$('#fancybox-wrap').height('600');
+						});
+
 						$this.stop().animate({
 							'width' : '550px',
 							'height':'362px',
@@ -116,6 +120,10 @@
 					},
 					function(){
 						var $this = $(this);
+						$('#menu-puzzle-01').bind('resize',function(){
+							$('#fancybox-wrap').height('300');
+						});
+
 						$this.stop().animate({
 							'width' : '304px', 
 							'height':'200px',
