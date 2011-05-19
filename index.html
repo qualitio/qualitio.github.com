@@ -44,8 +44,8 @@
 					'autoScale'			: false,
 					'autoDimensions'	: false,
 					'hideOnContentClick': true,					
-					'width'				: '660',
-					'height'			: '350',
+					'width'				: '760',
+					'height'			: '390',
 				});
 				
 				$("#menu-puzzle-01").fancybox({
@@ -55,8 +55,8 @@
 					'autoScale'			: false,
 					'autoDimensions'	: false,
 					'hideOnContentClick': true,
-					'width'				: '660',
-					'height'			: '260',
+					'width'				: '760',
+					'height'			: '380',
 				});
 				
 				$("#menu-puzzle-10").fancybox({
@@ -66,8 +66,8 @@
 					'autoScale'			: false,
 					'autoDimensions'	: false,
 					'hideOnContentClick': true,
-					'width'				: '660',
-					'height'			: '310',
+					'width'				: '760',
+					'height'			: '380',
 				});
 				$("#menu-puzzle-11").fancybox({
 					'titlePosition'		: 'inside',
@@ -76,8 +76,8 @@
 					'autoScale'			: false,
 					'autoDimensions'	: false,
 					'hideOnContentClick': true,
-					'width'				: '660',
-					'height'			: '200',
+					'width'				: '760',
+					'height'			: '380',
 				});
 				$("#button-overview").fancybox({
 					'titlePosition'		: 'inside',
@@ -99,6 +99,31 @@
 					'width'				: '660',
 					'height'			: '220',
 				});				
+			});
+		</script>
+		
+		<script type="application/javascript">
+			$(function() {
+				$('#dynamicimage img').hover(
+					function(){
+						var $this = $(this);
+						$this.stop().animate({
+							'width' : '550px',
+							'height':'362px',
+							'top':'0px',
+							'left':'0px'
+						});
+					},
+					function(){
+						var $this = $(this);
+						$this.stop().animate({
+							'width' : '304px', 
+							'height':'200px',
+							'top':'0px',
+							'left':'0px'
+						});
+					}
+				);
 			});
 		</script>
     </head>
@@ -144,6 +169,8 @@
 
 			<div style="display: none;">
 				<div id="requirement">
+					<div class="emptymodule"></div>
+					<div id="dynamicimage" class="imagesmodules"><img src="/resources/requirements.png" alt="Photo requirements.png"/></div>
    					<h3>Requirements module</h3>
 					<p>Each project starts with requirements which reflect customer needs.</p> 
 					<p>Descriptive requirements divided into different level of abstraction is the first step for successful product delivery.</p>
@@ -161,6 +188,8 @@
 
 			<div style="display: none;">
         		<div id="reporting">
+					<div class="emptymodule"></div>
+					<div id="dynamicimage" class="imagesmodules"><img src="/resources/report.png" alt="Photo report.png"/></div>
         			<h3>Reporting module</h3>
 	        		<p>Testing results are worthless without good reporting. Well prepared testing summary gives bird's eye view on product situation.</p>
     	    		<p>Qualitio gives you an opportunity to create fully informative and not data overloaded reports. Each report could be tailored to your needs thanks to meta language engine.</p>
@@ -170,6 +199,8 @@
         
 			<div style="display: none;">
 	        	<div id="execution">
+					<div class="emptymodule"></div>
+					<div id="dynamicimage" class="imagesmodules"><img src="/resources/execute.png" alt="Photo execute.png"/></div>
     	    		<h3>Execution module</h3>
         			<p>Good quality assurance follows whole life cycle of a project on each level.</p>
         			<p>Qualitio gives you an option to:</p>
@@ -184,6 +215,8 @@
 
 			<div style="display: none;">
 	        	<div id="store">
+					<div class="emptymodule"></div>
+					<div id="dynamicimage" class="imagesmodules"><img src="/resources/store.png" alt="Photo store.png"/></div>
 					<h3>Store module</h3>
         			<p>Each project needs testing activities to assure solid quality. </p>
         			<p>Solid quality means good test cases. Good test cases covers all application on each level.</p>

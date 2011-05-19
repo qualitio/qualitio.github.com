@@ -169,3 +169,15 @@ div#fancybox-wrap {top:50px !important; }
 #text-store {font-family: "Arial"; font-size: 13px; position: relative; top: 335px; left: 45px;}
 #text-report {font-family: "Arial"; font-size: 13px; position: relative; top: 320px; left: 435px;}
 #skypedetectionswf{display: none;}
+
+.emptymodule{
+	width: 304px;
+	height: 200px;
+	position: relative;
+	float: right;
+}
+.imagesmodules{
+	position:absolute;
+	float: right;
+	right: 0px;
+}
