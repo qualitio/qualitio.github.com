@@ -75,7 +75,7 @@ div#fancybox-wrap {top:50px !important; }
 }
 
 #menu-puzzle{
-	background-image: url(resources/puzzle_transparent_small.png); 
+	background-image: url(resources/puzzle.png); 
 	background-repeat: no-repeat; 
 	width: 506px; 
 	height: 388px;
@@ -92,7 +92,7 @@ div#fancybox-wrap {top:50px !important; }
 	width: 273px;
 }
 
-#menu-puzzle-00:hover{ background-image: url(resources/left_top_active_small.png); }
+#menu-puzzle-00:hover{ background: transparent url(resources/puzzle.png) 0 -388px no-repeat; }
 	
 #menu-puzzle-01 {
 	right: 0px;
@@ -100,7 +100,7 @@ div#fancybox-wrap {top:50px !important; }
 	height: 193px;
 }
 
-#menu-puzzle-01:hover {	background-image: url(resources/right_top_active_small.png); }
+#menu-puzzle-01:hover {	background: transparent url(resources/puzzle.png) -273px -388px no-repeat; }
 
 #menu-puzzle-10 {
 	bottom: 0px;
@@ -108,7 +108,7 @@ div#fancybox-wrap {top:50px !important; }
 	height: 217px;
 }
 
-#menu-puzzle-10:hover {	background-image: url(resources/left_bottom_active_small.png); }
+#menu-puzzle-10:hover {	background: transparent url(resources/puzzle.png) 0 -581px no-repeat; }
 
 #menu-puzzle-11 {
 	bottom: 0px;
@@ -117,7 +117,7 @@ div#fancybox-wrap {top:50px !important; }
 	height: 217px;
 }
 
-#menu-puzzle-11:hover {	background-image: url(resources/right_bottom_active_small.png); }
+#menu-puzzle-11:hover {	background: transparent url(resources/puzzle.png) -273px -581px no-repeat; }
 
 #button-overview{
 	background-image: url(resources/about_section.png);
@@ -129,7 +129,7 @@ div#fancybox-wrap {top:50px !important; }
 }
 
 #button-demo{
-	background-image: url(resources/demo_passive_small.png);
+	background: transparent url(resources/bottonicons.png) 0px 0px no-repeat;
 	background-repeat: no-repeat;
 	position:absolute;
 	top: 25.5px;
@@ -138,10 +138,10 @@ div#fancybox-wrap {top:50px !important; }
 	height: 126px;
 }
 
-#button-demo:hover{	background-image: url(resources/demo_active_small.png); }
+#button-demo:hover{ background:	transparent url(resources/bottonicons.png) 0px -126px no-repeat; }
 
 #button-download{
-	background-image: url(resources/download_passive_small.png);
+	background: transparent url(resources/bottonicons.png) -214px 0px no-repeat;
 	background-repeat: no-repeat;
 	position:absolute;
 	top: 25.5px;
@@ -150,10 +150,10 @@ div#fancybox-wrap {top:50px !important; }
 	height: 126px;
 }
 
-#button-download:hover{	background-image: url(resources/download_active_small.png); }
+#button-download:hover{	background:	transparent url(resources/bottonicons.png) -214px -126px no-repeat; }
 
 #button-contact{
-	background-image: url(resources/contact_passive_small.png);
+	background: transparent url(resources/bottonicons.png) -428px 0px no-repeat;
 	background-repeat: no-repeat;
 	position:absolute;
 	top: 25.5px;
@@ -162,7 +162,7 @@ div#fancybox-wrap {top:50px !important; }
 	height: 126px;
 }
 
-#button-contact:hover{ background-image: url(resources/contact_active_small.png); }
+#button-contact:hover{ background:	transparent url(resources/bottonicons.png) -428px -126px no-repeat; }
 
 #text-requirements {font-family: "Arial"; font-size: 13px; position: relative; top: 14px; left: 40px;}
 #text-execute {font-family: "Arial"; font-size: 13px; position: relative; top: 0px; left: 435px;}
