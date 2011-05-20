@@ -104,10 +104,12 @@
 		
 		<script type="text/javascript">
 			$(function() {
-				$('#dynamicimage img').hover(
+				$('#dynamicimag img').hover(
 					function(){
 						var $this = $(this);
-						$this.stop().animate({
+						var $wrap = $('#menu-puzzle-10');
+						$('#fancybox-wrap').height(400);						
+						$this.animate({
 							'width' : '550px',
 							'height':'362px',
 							'top':'0px',
@@ -116,7 +118,9 @@
 					},
 					function(){
 						var $this = $(this);
-						$this.stop().animate({
+						$('#fancybox-wrap').height(300);
+						$.fancybox.resize();												
+						$this.animate({
 							'width' : '304px', 
 							'height':'200px',
 							'top':'0px',
