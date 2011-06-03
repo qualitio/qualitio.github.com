@@ -56,7 +56,7 @@
 					'autoDimensions'	: false,
 					'hideOnContentClick': true,
 					'width'				: '760',
-					'height'			: '280',
+					'height'			: '300',
 				});
 				
 				$("#menu-puzzle-10").fancybox({
@@ -101,6 +101,54 @@
 				});				
 			});
 		</script>
+
+		<script type="text/javascript">
+			$(function() {
+				var height_wrap = 300;
+				var height_content = 300;
+				$('#dynamicimage img').hover(
+					function(){
+						var $this = $(this);
+						height_wrap = $('#fancybox-wrap').height();
+						height_content = $('#fancybox-content').height();
+						height_content_first = $('#fancybox-content div:first').height();						
+						$('#fancybox-wrap').stop().animate({
+							'height' : '400px',
+						});
+						$('#fancybox-content').stop().animate({
+							'height' : '390px',
+						});
+						$("#fancybox-content div:first").stop().animate({
+							'height' : '390px',
+						});
+						$this.stop().animate({
+							'width' : '500px',
+							'height':'362px',
+							'top':'0px',
+							'left':'0px'
+						});
+					},
+					function(){
+						var $this = $(this);
+						$('#fancybox-wrap').stop().animate({
+							'height' : height_wrap,
+						});
+						$('#fancybox-content').stop().animate({
+							'height' : height_content,
+						});
+						$("#fancybox-content div:first").stop().animate({
+							'height' : height_content,
+						});
+						$this.stop().animate({
+							'width' : '276px',
+							'height':'200px',
+							'top':'0px',
+							'left':'0px'
+						});
+					}
+				);
+			});
+		</script>
 		
                 <script type="text/javascript">
 
@@ -131,7 +179,7 @@
 					<div id="text-requirements">Require</div>
 					<div id="text-execute">Execute</div>
 					<div id="text-store">Store</div>
-					<div id="text-report">Reports</div>
+					<div id="text-report">Report</div>
     	    	</div>
 
 				<div id="box-overview">
@@ -150,7 +198,7 @@
         		</div>
 	        
 				<div id="box-meego">
-					Now you can use Qualitio for <img src="/resources/meego_logo.png" alt="Photo meego_logo.png"/> Just log in at <a href="https://meego.qualitio.com">https://meego.qualitio.com </a>
+					Now you can use Qualitio for <a target="_blank" href="https://www.meego.com/"><img src="/resources/meego_logo.png" alt="Photo meego_logo.png"/></a>. Just log in at <a href="https://meego.qualitio.com">https://meego.qualitio.com </a>
 				</div>
 
 	        </div>
@@ -164,7 +212,10 @@
 			<div style="display: none;">
 				<div id="requirement">
 					<div class="emptymodule"></div>
-					<div id="dynamicimage" class="imagesmodules"><img src="/resources/requirements.png" alt="Photo requirements.png"/></div>
+					<div id="dynamicimage" class="imagesmodules">
+						<a class="linkposition" target="_blank" href="http://demo.qualitio.com/require/#requirement/2/details/" > See it on the demo</a>
+						<img src="/resources/requirements.png" alt="Photo requirements.png"/>
+					</div>
    					<h3>Require</h3>
 					<p>Each project starts with requirements which reflect customer expectations.</p> 
 					<p>Descriptive requirements are the first step to successful product.</p>
@@ -183,7 +234,10 @@
 			<div style="display: none;">
         		<div id="reporting">
 					<div class="emptymodule"></div>
-					<div id="dynamicimage" class="imagesmodules"><img src="/resources/report.png" alt="Photo report.png"/></div>
+					<div id="dynamicimage" class="imagesmodules">
+						<a class="linkposition" target="_blank" href="http://demo.qualitio.com/report/#report/1/details/" > See it on the demo</a>
+						<img src="/resources/report.png" alt="Photo report.png"/>
+					</div>
         			<h3>Report</h3>
 	        		<p>Testing results are worthless without good reporting. Well prepared report gives a bird's eye view on current situation.</p>
     	    		<p>With Qualitio you can:</p>
@@ -198,7 +252,10 @@
 			<div style="display: none;">
 	        	<div id="execution">
 					<div class="emptymodule"></div>
-					<div id="dynamicimage" class="imagesmodules"><img src="/resources/execute.png" alt="Photo execute.png"/></div>
+					<div id="dynamicimage" class="imagesmodules">
+						<a class="linkposition" target="_blank" href="http://demo.qualitio.com/execute/#testrun/2/details/" > See it on the demo</a>
+						<img src="/resources/execute.png" alt="Photo execute.png"/>
+					</div>
     	    		<h3>Execute</h3>
         			<p>Good quality assurance follows whole life cycle of a project on each level.</p>
         			<p>Qualitio allows you to:</p>
@@ -213,8 +270,11 @@
 
 			<div style="display: none;">
 	        	<div id="store">
-					<div class="emptymodule"></div>
-					<div id="dynamicimage" class="imagesmodules"><img src="/resources/store.png" alt="Photo store.png"/></div>
+					<div id="dynamicimage" class="imagesmodules">
+						<a class="linkposition" target="_blank" href="http://demo.qualitio.com/store/#testcase/2/details/" > See it on the demo</a>
+						<img src="/resources/store.png" alt="Photo store.png"/>
+	        		</div>
+
 					<h3>Store</h3>
         			<p>Quality depends on testing and testing depends on test cases.</p>
         			<p>With Qualitio you can:</p>
