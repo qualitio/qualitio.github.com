@@ -56,7 +56,7 @@
 					'autoDimensions'	: false,
 					'hideOnContentClick': true,
 					'width'				: '760',
-					'height'			: '300',
+					'height'			: '280',
 				});
 				
 				$("#menu-puzzle-10").fancybox({
@@ -67,7 +67,7 @@
 					'autoDimensions'	: false,
 					'hideOnContentClick': true,
 					'width'				: '760',
-					'height'			: '320',
+					'height'			: '290',
 				});
 				$("#menu-puzzle-11").fancybox({
 					'titlePosition'		: 'inside',
@@ -77,7 +77,7 @@
 					'autoDimensions'	: false,
 					'hideOnContentClick': true,
 					'width'				: '760',
-					'height'			: '270',
+					'height'			: '290',
 				});
 				$("#button-overview").fancybox({
 					'titlePosition'		: 'inside',
@@ -87,7 +87,7 @@
 					'autoDimensions'	: false,
 					'hideOnContentClick': true,
 					'width'				: '760',
-					'height'			: '555',
+					'height'			: '520',
 				});				
 				$("#button-contact").fancybox({
 					'titlePosition'		: 'inside',
@@ -102,34 +102,6 @@
 			});
 		</script>
 		
-		<script type="text/javascript">
-			$(function() {
-				$('#dynamicimag img').hover(
-					function(){
-						var $this = $(this);
-						var $wrap = $('#menu-puzzle-10');
-						$('#fancybox-wrap').height(400);						
-						$this.animate({
-							'width' : '550px',
-							'height':'362px',
-							'top':'0px',
-							'left':'0px'
-						});
-					},
-					function(){
-						var $this = $(this);
-						$('#fancybox-wrap').height(300);
-						$.fancybox.resize();												
-						$this.animate({
-							'width' : '304px', 
-							'height':'200px',
-							'top':'0px',
-							'left':'0px'
-						});
-					}
-				);
-			});
-		</script>
                 <script type="text/javascript">
 
                   var _gaq = _gaq || [];
@@ -176,7 +148,11 @@
 	        			<li><b style="font-family: Arial ; font-size: 16px;">Qualitio is an Open Source web application</b></li>
     	    		</ul>
         		</div>
-	        Now you can use Qualitio for meego_logo.jpg Just log in at https://meego.qualitio.com
+	        
+				<div id="box-meego">
+					Now you can use Qualitio for <img src="/resources/meego_logo.png" alt="Photo meego_logo.jpg"/> Just log in at <a href="https://meego.qualitio.com">https://meego.qualitio.com </a>
+				</div>
+
 	        </div>
         	
 	        <div id="box-links">

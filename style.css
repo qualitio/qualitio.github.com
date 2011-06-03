@@ -46,7 +46,7 @@ div#fancybox-wrap {top:50px !important; }
 	height : 57px;
 }
 
-#box-center{ height: 395px; }
+#box-center{ height: 420px; }
 
 #box-overview{
 	background-color: transparent;
@@ -72,6 +72,20 @@ div#fancybox-wrap {top:50px !important; }
 	position: relative;
 	width: 846px;
 	height : 177px;
+}
+
+#box-meego{
+	font-size: 14px;
+	height: 32px;
+	position: relative;
+	float: left;
+	top: 10px;
+}
+
+#box-meego img{
+	height: 16px;
+	position: relative;
+	top: 3px;
 }
 
 #menu-puzzle{
