@@ -1,179 +1,178 @@
-body {
-	background-color: #858585;
-	background-image: url(resources/gradient.png);
-	background-repeat: repeat-x;
-	margin: 0px;
+body{
+    background-color: #858585;
+    background-image: url(resources/gradient.png);
+    background-repeat: repeat-x;
+    margin: 0px;
     width: 100%;
-	overflow: auto;
+    overflow: auto;
     display: table;
-
-	font-family: 'Nobile', serif;
-  	font-size: 15px;
-	font-style: normal;
-	font-weight: 400;
-	text-shadow: none;
-	text-decoration: none;
-	text-transform: none;
-	letter-spacing: 0em;
-	word-spacing: 0em;
-	line-height: 1.2;
-	color : #000;
+    font-family: 'Nobile', serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    text-shadow: none;
+    text-decoration: none;
+    text-transform: none;
+    letter-spacing: 0em;
+    word-spacing: 0em;
+    line-height: 1.2;
+    color : #000;
 }
 
-.body-content {
+.body-content{
     display:block;
     margin: 0em auto;
     width: 846px; /* choose the width */
 }
 
-ul {
-	list-style-type: none;
+ul{
+    list-style-type: none;
 }
 
 li {
-	background-image: url(resources/li_right.png );
-	background-repeat: no-repeat;
-	background-position: 21px 5px;
-	margin-top: 10px;
-	padding-left: 35px;
+    background-image: url(resources/li_right.png );
+    background-repeat: no-repeat;
+    background-position: 21px 5px;
+    margin-top: 10px;
+    padding-left: 35px;
 }
 
 div#fancybox-wrap {top:50px !important; } 
 
 #box-header{
-	background-image: url(resources/upper_logo_small.png);
-	background-repeat: no-repeat;
-	height : 57px;
+    background-image: url(resources/upper_logo_small.png);
+    background-repeat: no-repeat;
+    height: 57px;
 }
 
-#box-center{ height: 420px; }
+#box-center{height: 420px;}
 
 #box-overview{
-	background-color: transparent;
-	position:relative;
-	float:right; 
-	width: 120px;
-	height : 120px;
+    background-color: transparent;
+    position: relative;
+    float: right; 
+    width: 120px;
+    height: 120px;
 	margin-top: 5px;
 }
 
 #box-text{
-	background-color: transparent;
-	position:relative;
-	float:right; 
-	width: 340px;
-	height : 268px;
+    background-color: transparent;
+    position:relative;
+    float:right; 
+    width: 340px;
+    height : 268px;
 } 
 
-#box-text ul{ margin-top: -10px; }
+#box-text ul{margin-top: -10px;}
 
 #box-links{
-	background-repeat: no-repeat;
-	position: relative;
-	width: 846px;
-	height : 177px;
+    background-repeat: no-repeat;
+    position: relative;
+    width: 846px;
+    height: 177px;
 }
 
 #box-meego{
-	font-size: 14px;
-	height: 32px;
-	position: relative;
-	float: left;
-	top: 10px;
+    font-size: 14px;
+    height: 32px;
+    position: relative;
+    float: left;
+    top: 10px;
 }
 
 #box-meego img{
-	height: 16px;
-	position: relative;
-	top: 3px;
+    height: 16px;
+    position: relative;
+    top: 3px;
 }
 
 #menu-puzzle{
-	background-image: url(resources/puzzle.png); 
-	background-repeat: no-repeat; 
-	width: 506px; 
-	height: 388px;
-	position: relative;
-	float: left;
-	z-index: 0;
+    background-image: url(resources/puzzle.png); 
+    background-repeat: no-repeat; 
+    width: 506px; 
+    height: 388px;
+    position: relative;
+    float: left;
+    z-index: 0;
 }
 
 #menu-puzzle a{ position: absolute;}
 #menu-puzzle div{width: 50px; z-index: -1;}
 
 #menu-puzzle-00{
-	height: 193px;
-	width: 273px;
+    height: 193px;
+    width: 273px;
 }
 
 #menu-puzzle-00:hover{ background: transparent url(resources/puzzle.png) 0 -388px no-repeat; }
-	
+
 #menu-puzzle-01 {
-	right: 0px;
-	width: 233px;
-	height: 193px;
+    right: 0px;
+    width: 233px;
+    height: 193px;
 }
 
 #menu-puzzle-01:hover {	background: transparent url(resources/puzzle.png) -273px -388px no-repeat; }
 
 #menu-puzzle-10 {
-	bottom: 0px;
-	width: 273px;
-	height: 217px;
+    bottom: 0px;
+    width: 273px;
+    height: 217px;
 }
 
 #menu-puzzle-10:hover {	background: transparent url(resources/puzzle.png) 0 -581px no-repeat; }
 
 #menu-puzzle-11 {
-	bottom: 0px;
-	right: 0px;
-	width: 233px;
-	height: 217px;
+    bottom: 0px;
+    right: 0px;
+    width: 233px;
+    height: 217px;
 }
 
 #menu-puzzle-11:hover {	background: transparent url(resources/puzzle.png) -273px -581px no-repeat; }
 
 #button-overview{
-	background-image: url(resources/about_section.png);
-	background-repeat: no-repeat;	
-	position: absolute;
-	left: 0px;
-	width: 100%;
-	height: 100%;
+    background-image: url(resources/about_section.png);
+    background-repeat: no-repeat;	
+    position: absolute;
+    left: 0px;
+    width: 100%;
+    height: 100%;
 }
 
 #button-demo{
-	background: url(resources/bottonicons.png) 0px 0px no-repeat;
-	background-repeat: no-repeat;
-	position:absolute;
-	top: 25.5px;
-	left: 51px;
-	width: 214px;
-	height: 126px;
+    background: url(resources/bottonicons.png) 0px 0px no-repeat;
+    background-repeat: no-repeat;
+    position:absolute;
+    top: 25.5px;
+    left: 51px;
+    width: 214px;
+    height: 126px;
 }
 
 #button-demo:hover{ background:	transparent url(resources/bottonicons.png) 0px -126px no-repeat; }
 
 #button-download{
-	background: url(resources/bottonicons.png) -214px 0px no-repeat;
-	background-repeat: no-repeat;
-	position:absolute;
-	top: 25.5px;
-	left: 316px;
-	width: 214px;
-	height: 126px;
+    background: url(resources/bottonicons.png) -214px 0px no-repeat;
+    background-repeat: no-repeat;
+    position:absolute;
+    top: 25.5px;
+    left: 316px;
+    width: 214px;
+    height: 126px;
 }
 
 #button-download:hover{	background:	transparent url(resources/bottonicons.png) -214px -126px no-repeat; }
 
 #button-contact{
-	background: url(resources/bottonicons.png) -428px 0px no-repeat;
-	background-repeat: no-repeat;
-	position:absolute;
-	top: 25.5px;
-	left: 581px;
-	width: 214px;
-	height: 126px;
+    background: url(resources/bottonicons.png) -428px 0px no-repeat;
+    background-repeat: no-repeat;
+    position:absolute;
+    top: 25.5px;
+    left: 581px;
+    width: 214px;
+    height: 126px;
 }
 
 #button-contact:hover{ background:	transparent url(resources/bottonicons.png) -428px -126px no-repeat; }
@@ -185,28 +184,28 @@ div#fancybox-wrap {top:50px !important; }
 #skypedetectionswf{display: none;}
 
 .emptymodule{
-	width: 325px;
-	height: 225px;
-	position: relative;
-	float: right;
+    width: 325px;
+    height: 225px;
+    position: relative;
+    float: right;
 }
 
 .imagesmodules{
-	position: absolute;
-	float: right;
-	right: 0px;
-	top: 20px;
+    position: absolute;
+    float: right;
+    right: 0px;
+    top: 20px;
 }
 
 .linkposition{
-	position: absolute;
-	float: right;
-	right: 0px;
-	top: -20px;
+    position: absolute;
+    float: right;
+    right: 0px;
+    top: -20px;
 }
 
 .imagesmodules img{
-	position: relative;
-	width: 276px;
-	height: 200px;
+    position: relative;
+    width: 276px;
+    height: 200px;
 }
