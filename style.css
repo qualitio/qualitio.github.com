@@ -200,7 +200,6 @@ div#fancybox-wrap {top:50px !important; }
 .linkposition{
     position: absolute;
     float: right;
-    border: 0px solid black;
     right: 0px;
     top: -20px;
 }
@@ -209,4 +208,8 @@ div#fancybox-wrap {top:50px !important; }
     position: relative;
     width: 276px;
     height: 200px;
+}
+
+.no-border{
+    border: 0px solid black;
 }
