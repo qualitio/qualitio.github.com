@@ -37,6 +37,8 @@ li {
     padding-left: 35px;
 }
 
+:link img {outline: none}
+
 div#fancybox-wrap {top:50px !important; } 
 
 #box-header{
