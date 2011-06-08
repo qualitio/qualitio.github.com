@@ -37,7 +37,7 @@ li {
     padding-left: 35px;
 }
 
-:link img {outline: none}
+a img {border: none; }
 
 div#fancybox-wrap {top:50px !important; } 
 
