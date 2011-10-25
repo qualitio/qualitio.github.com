@@ -22,7 +22,7 @@ body{
 .body-content{
     display:block;
     margin: 0em auto;
-    width: 846px; /* choose the width */
+    width: 846px;
 }
 
 ul{
